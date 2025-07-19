@@ -110,7 +110,7 @@ Corresponding Author Email
 
 Use pandas to export to CSV.
 
-🔹 Step 5: CLI Support using Typer
+Step 5: CLI Support using Typer
 
 Add command-line arguments:
 
@@ -139,7 +139,7 @@ main.py: CLI logic using typer.
 
 Follow PEP8 and use type hints.
 
-🔹 Step 7: Setup Executable Command
+Step 7: Setup Executable Command
 In pyproject.toml, configure:
 
 toml
