@@ -65,7 +65,7 @@ efetch: Get detailed metadata using PubMed IDs.
 
 Use requests to make API calls.
 
-🔹 Step 3: Filter for Non-Academic Authors
+Step 3: Filter for Non-Academic Authors
 Use heuristics like:
 
 Check affiliation strings for:
@@ -126,7 +126,7 @@ Use Typer to handle CLI arguments:
 
 
 poetry run get-papers-list "cancer AND immunotherapy" --file results.csv
-🔹 Step 6: Structure the Code
+Step 6: Structure the Code
 Create a Python module (get_papers/):
 
 api.py: Handles PubMed API interactions.
